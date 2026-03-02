@@ -1,6 +1,6 @@
 import { useState } from "react";
-import BinaryTreeViz from "./Components/BinaryTreeViz";
-import { parseBinaryTreeFile } from "./Utils/binaryTreeParser";
+import BinaryTreeViz from "./components/BinaryTreeViz";
+import { parseBinaryTreeFile } from "./utils/binaryTreeParser";
 import { findPathForString } from "./utils/containsPath";
 
 // 👇 DEMO para probar sin archivo
