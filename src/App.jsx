@@ -1,7 +1,7 @@
 import { useState } from "react";
-import BinaryTreeViz from "./components/BinaryTreeViz";
-import { parseBinaryTreeFile } from "./utils/binaryTreeParser";
-import { findPathForString } from "./utils/containsPath";
+import BinaryTreeViz from "./components/BinaryTreeViz.jsx";
+import { parseBinaryTreeFile } from "./utils/binaryTreeParser.jsx";
+import { findPathForString } from "./utils/containsPath.jsx";
 
 // 👇 DEMO para probar sin archivo
 const DEMO_TEXT = `a,b,c,d,e,f,g
